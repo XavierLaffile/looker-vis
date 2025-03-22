@@ -1,61 +1,12 @@
 {
-  "name": "Série temporelle personnalisée",
-  "description": "Série temporelle avec compétiteur principal configurable",
-  "organization": "Votre Nom",
+  "name": "Test Visualisation",
+  "description": "Test de base",
+  "organization": "Xavier",
   "version": "1.0.0",
   "devMode": true,
   "dataStudio": {
     "js": "script.js",
     "css": "style.css",
-    "html": "index.html",
-    "dependencies": [
-      "https://d3js.org/d3.v7.min.js"
-    ],
-    "data": [
-      {
-        "id": "data",
-        "label": "Données",
-        "dimensions": [
-          {"id": "date", "name": "Date", "type": "DATE"},
-          {"id": "competitor", "name": "Compétiteur", "type": "TEXT"},
-          {"id": "logo", "name": "Logo URL", "type": "TEXT"}
-        ],
-        "metrics": [
-          {"id": "metric", "name": "Métrique", "type": "NUMBER"}
-        ]
-      }
-    ],
-    "style": [
-      {
-        "id": "mainCompetitor",
-        "label": "Compétiteur principal",
-        "type": "TEXT",
-        "defaultValue": "Concurrent A"
-      },
-      {
-        "id": "mainColor",
-        "label": "Couleur du compétiteur principal",
-        "type": "COLOR",
-        "defaultValue": "#1f77b4"
-      },
-      {
-        "id": "mainStrokeWidth",
-        "label": "Épaisseur du trait principal (px)",
-        "type": "NUMBER",
-        "defaultValue": 4
-      },
-      {
-        "id": "otherColor",
-        "label": "Couleur des autres compétiteurs",
-        "type": "COLOR",
-        "defaultValue": "#2ca02c"
-      },
-      {
-        "id": "otherStrokeWidth",
-        "label": "Épaisseur des autres traits (px)",
-        "type": "NUMBER",
-        "defaultValue": 2
-      }
-    ]
+    "html": "index.html"
   }
 }
